@@ -1,0 +1,16 @@
+<div style="border: 5px green solid; border-radius: 35px;
+	height: 200px; ">
+	<p style="font-size: 400%; color: red; text-align: center;">2+2=?</p>
+</div>
+
+<script>
+	var audio_correct = new Audio('correct.mp3');
+	var audio_wrong = new Audio('wrong.mp3');
+	var audio_wrong2 = new Audio('wrong.mp3');
+	var audio_wrong3 = new Audio('wrong.mp3');
+</script>
+
+<img id="A" src="https://www.brainz.org/wp-content/uploads/2017/06/4-1.png" style="height:300px; width:300px;" onclick="audio_wrong.play(); document.getElementById('A').src='https://i.ytimg.com/vi/AHLCE7iH9qI/maxresdefault.jpg'; ">
+<img id="B" src="https://www.brainz.org/wp-content/uploads/2017/06/4-1.png" style="height:300px; width:300px;" onclick="audio_wrong2.play(); document.getElementById('B').src='https://i.ytimg.com/vi/AHLCE7iH9qI/maxresdefault.jpg'; ">
+<img id="C" src="https://www.brainz.org/wp-content/uploads/2017/06/4-1.png" style="height:300px; width:300px;" onclick="audio_wrong3.play(); document.getElementById('C').src='https://i.ytimg.com/vi/AHLCE7iH9qI/maxresdefault.jpg'; ">
+<img id="D" src="https://www.brainz.org/wp-content/uploads/2017/06/4-1.png" style="height:300px; width:300px;" onclick="audio_correct.play(); document.getElementById('D').src='https://cdn.pixabay.com/photo/2013/07/12/12/40/check-146095_960_720.png'; ">
